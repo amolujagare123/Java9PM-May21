@@ -1,3 +1,5 @@
+package ifEleseSwitch;
+
 public class GreaterNo {
     public static void main(String[] args) {
 

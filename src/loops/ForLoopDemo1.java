@@ -1,3 +1,5 @@
+package loops;
+
 public class ForLoopDemo1 {
 
     public static void main(String[] args) {

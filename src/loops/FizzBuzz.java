@@ -1,3 +1,5 @@
+package loops;
+
 public class FizzBuzz {
 
     public static void main(String[] args) {
@@ -6,7 +8,7 @@ public class FizzBuzz {
         {
 
             if (i%3 ==0 && i%5==0)
-                System.out.println(i+" FizzBuzz");
+                System.out.println(i+" loops.FizzBuzz");
 
             else if( i%3 == 0 )
                 System.out.println(i+" Fizz");

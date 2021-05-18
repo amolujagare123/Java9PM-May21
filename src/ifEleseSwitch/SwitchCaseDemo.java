@@ -1,3 +1,5 @@
+package ifEleseSwitch;
+
 public class SwitchCaseDemo {
 
     public static void main(String[] args) {
