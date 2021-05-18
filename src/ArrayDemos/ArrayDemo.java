@@ -1,3 +1,5 @@
+package ArrayDemos;
+
 public class ArrayDemo {
 
     public static void main(String[] args) {
@@ -15,7 +17,6 @@ public class ArrayDemo {
         int l = a.length;
 
         System.out.println("length of an array = "+ l);
-
 
         for(int i=0; i<5 ; i++)
         {
