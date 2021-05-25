@@ -28,13 +28,19 @@ public class ClassDemo {
         ob.str ="amol";
         ob.display();
 
-        ClassDemo ob1 = new ClassDemo();
+        ClassDemo ob2 = new ClassDemo();
+        // if i copy ob into ob2 , and call the display method
+        // ob2.a--> 20
+        // ob2.d---> 4.5 and so on
+
+
+        /*ClassDemo ob1 = new ClassDemo();
         ob1.a = 11;
         ob1.d = 11.11;
         ob1.c = 'r';
         ob1.str="selenium";
 
-        ob1.display();
+        ob1.display();*/
 
 
     }
