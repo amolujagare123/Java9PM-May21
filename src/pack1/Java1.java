@@ -3,11 +3,11 @@ package pack1;
 public class Java1 {
 
     public int a1;
-    double d1;
+     protected double d1;
     private char c1;
     String str1; // data members
 
-    void display1() // member function
+    protected void display1() // member function
     {
         System.out.println("a="+a1);
         System.out.println("d="+d1);

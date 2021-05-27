@@ -2,7 +2,7 @@ package pack2;
 
 import pack1.Java1;
 
-public class Java3 {
+public class Java3 extends  Java1 {
 
     int a3;
     double d3;
@@ -19,6 +19,15 @@ public class Java3 {
 
     public static void main(String[] args)   {
         Java1 ob = new Java1();
+        ob.a1 = 10;
+      /*  ob.d1 = 9.9;
+        ob.display1();*/
+
+        Java3 ob3 = new Java3();
+        ob3.a1 = 12;
+        ob3.d1 = 3.4;
+        ob3.display1();
+
        /* ob.a1 = 10;
         ob.d1 = 9.9;
         ob.c1 = 'l';
