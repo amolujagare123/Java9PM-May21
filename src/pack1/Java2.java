@@ -2,12 +2,12 @@ package pack1;
 
 public class Java2 {
 
-    int a2;
-    double d2;
-    char c2;
-    String str2; // data members
+    public int a2;
+    public double d2;
+    public char c2;
+    public String str2; // data members
 
-    void display2() // member function
+    public void display2() // member function
     {
         System.out.println("a="+a2);
         System.out.println("d="+d2);

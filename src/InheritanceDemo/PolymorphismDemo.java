@@ -11,7 +11,14 @@ public class PolymorphismDemo {
         System.out.println("Addition="+c);
     }
 
-    void addition(int x,int y)
+    void addition(int x)
+    {
+        int c = x + x ;
+        System.out.println("Addition="+c);
+    }
+
+
+    void addition(int x,int y) // parameters / method arguments
     {
         int c = x +y;
         System.out.println("Addition="+c);
