@@ -1,5 +1,7 @@
 package pack1;
 
+import static FinalNStatic.StaticMethodDemo.*;
+
 public class Java1 {
 
     public int a1;
@@ -21,6 +23,11 @@ public class Java1 {
         ob.a1 = 10;
         ob.c1 = 'l';
         ob.display1();
+
+        //StaticMethodDemo.display();
+
+        display();
+        System.out.println(college);
     }
 
 }

@@ -2,6 +2,7 @@ package InheritanceDemo;
 
 public class Animal {
 
+    /*final */int id =10;
     void eat()
     {
         System.out.println("eat");
@@ -12,6 +13,7 @@ class Dog extends  Animal
 {
     void bark()
     {
+        id = 20;
         System.out.println("bark");
     }
 }

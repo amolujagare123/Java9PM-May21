@@ -37,7 +37,12 @@ public class ReturnMethods {
         System.out.println("num="+num);
         System.out.println("Using method call="+ob.getIntValue());
 
+
+        System.out.println(ob.getMyString()); // xyz
+
+
        int[] xx = ob.getMyArray(); // array
+
         System.out.println("Array Below");
         for(int i=0;i<xx.length;i++)
             System.out.print(xx[i]+" ");

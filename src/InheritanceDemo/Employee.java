@@ -1,10 +1,10 @@
 package InheritanceDemo;
 
-public class Employee {
+public /*final */class Employee {
 
     int salary=15000;
 
-    void method1()
+   /* final*/ void method1()
     {
         System.out.println("inside Employee method-1");
     }
@@ -13,6 +13,11 @@ public class Employee {
 class Programmer extends Employee
 {
     int bonus = 2000;
+
+    void method1() // overridden method
+    {
+        System.out.println("inside Programmer method-1");
+    }
 
     void method2()
     {
