@@ -7,7 +7,7 @@ import java.sql.Statement;
 
 public class JDBC1 {
 
-    public static void main(String[] args) throws ClassNotFoundException, SQLException {
+    public static void main(String[] args) throws ClassNotFoundException, SQLException /*throws ClassNotFoundException, SQLException*/ {
 
         // 1. loading a driver
         Class.forName("com.mysql.cj.jdbc.Driver");
@@ -24,8 +24,11 @@ public class JDBC1 {
 
         // 4. execute query (DML - insert/update/delete)
 
-        String sql = "insert into student values(1,'Amol', 'IT', 78,'A')";
+        String sql = "insert into student values(5,'abhishek', 'IT', 78,'A')";
         st.executeUpdate(sql);
+
+        String sql1 = "insert into student values(6,'Amit', 'IT', 78,'A')";
+        st.executeUpdate(sql1);
 
         // 5. closing connections
         st.close();
