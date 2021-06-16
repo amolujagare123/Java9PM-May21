@@ -1,6 +1,7 @@
-package CollectionsDemo;
+package CollectionsDemo.ArrayListDemos;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class ArrayListDemo1 {
 
@@ -26,13 +27,19 @@ public class ArrayListDemo1 {
 
         System.out.println(al);
 
-        System.out.println("Size="+al.size());
+        /*System.out.println("Size="+al.size());
 
         for(int i=0;i<al.size();i++)
         {
             System.out.println(al.get(i));
-        }
+        }*/
 
+        Iterator itr = al.iterator();
+
+        while(itr.hasNext())
+        {
+            System.out.println(itr.next());
+        }
 
 
     }

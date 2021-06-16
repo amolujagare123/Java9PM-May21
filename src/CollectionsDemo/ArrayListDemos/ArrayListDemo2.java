@@ -1,8 +1,8 @@
-package CollectionsDemo;
+package CollectionsDemo.ArrayListDemos;
 
 import java.util.ArrayList;
 
-public class ArrayListDemo4 {
+public class ArrayListDemo2 {
 
     public static void main(String[] args) {
 
@@ -13,17 +13,20 @@ public class ArrayListDemo4 {
         al.add("akshay");
         al.add("avinash");
         al.add("chetan");
+        al.add("amol");
         al.add("mithilesh");
         al.add("Omkar");
         al.add("Hemangi");
         al.add("Sayli");
         al.add("Taarun");
-      //  System.out.println("al="+al);
+       /* al.add(12);
+        al.add('h');
+        al.add(true);
+        al.add(1.1);
+*/
+        System.out.println(al);
 
-       al.remove("amol");
-        al.remove(5);
-     //   System.out.println("al="+al);
-
+        //ArrayList<String> al2 = new ArrayList<String>();
         ArrayList<Integer> al2 = new ArrayList<>();
         al2.add(23);
         al2.add(13);
@@ -32,19 +35,8 @@ public class ArrayListDemo4 {
         al2.add(26);
         al2.add(13);
 
-        System.out.println("al2="+al2);
-       // al2.remove(3);
+        System.out.println(al2);
 
-        //Integer ii = new Integer(43);
-
-        al2.remove(new Integer(43));
-
-         //  al2.remove(ii);
-
-        System.out.println("al2="+al2);
-
-        al2.clear();
-        System.out.println("al2="+al2);
 
     }
 }
