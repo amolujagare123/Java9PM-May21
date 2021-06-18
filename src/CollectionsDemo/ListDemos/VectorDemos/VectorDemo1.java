@@ -1,4 +1,4 @@
-package CollectionsDemo.VectorDemos;
+package CollectionsDemo.ListDemos.VectorDemos;
 
 import java.util.Vector;
 

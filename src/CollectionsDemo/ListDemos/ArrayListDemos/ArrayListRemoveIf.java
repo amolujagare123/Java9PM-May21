@@ -1,8 +1,8 @@
-package CollectionsDemo.ArrayListDemos;
+package CollectionsDemo.ListDemos.ArrayListDemos;
 
 import java.util.ArrayList;
 
-public class ArrayListRemoveIf2 {
+public class ArrayListRemoveIf {
 
     public static void main(String[] args) {
 
@@ -21,14 +21,17 @@ public class ArrayListRemoveIf2 {
 
         System.out.println("al="+al);
 
-        // remove all the elements whose length less than or equal to 5
+        // remove all the elements which starts with a
         // str--> "amol";
         // REMOVE IF REMOVES ELEMENTS BASED ON SOME CONDITION
+
         // -> predicate symbol
 
-        al.removeIf(str -> str.length() <= 5);
-        System.out.println("al="+al);
+       // al.removeIf(str -> (str.charAt(0) == 'a')  );
 
+        al.removeIf(str -> (str.startsWith("a") )) ;
+
+        System.out.println("al="+al);
 
 
 

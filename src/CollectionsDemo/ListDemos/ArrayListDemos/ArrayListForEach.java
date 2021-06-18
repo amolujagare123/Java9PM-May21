@@ -1,8 +1,8 @@
-package CollectionsDemo.ArrayListDemos;
+package CollectionsDemo.ListDemos.ArrayListDemos;
 
 import java.util.ArrayList;
 
-public class ArrayListDemo2 {
+public class ArrayListForEach {
 
     public static void main(String[] args) {
 
@@ -19,14 +19,22 @@ public class ArrayListDemo2 {
         al.add("Hemangi");
         al.add("Sayli");
         al.add("Taarun");
-       /* al.add(12);
-        al.add('h');
-        al.add(true);
-        al.add(1.1);
-*/
+
         System.out.println(al);
 
-        //ArrayList<String> al2 = new ArrayList<String>();
+        // for each --> data in sequencial format
+
+        System.out.println("using for each loop");
+
+        for (String str : al)
+        {
+            System.out.println(str);
+        }
+
+
+
+
+
         ArrayList<Integer> al2 = new ArrayList<>();
         al2.add(23);
         al2.add(13);
@@ -36,6 +44,17 @@ public class ArrayListDemo2 {
         al2.add(13);
 
         System.out.println(al2);
+        System.out.println("using for each loop");
+
+        /*for(int x:al2)
+        {
+            System.out.println(x);
+        }*/
+
+        for(Integer x:al2)
+        {
+            System.out.println(x);
+        }
 
 
     }

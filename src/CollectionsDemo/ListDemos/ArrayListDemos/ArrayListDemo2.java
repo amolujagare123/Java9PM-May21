@@ -1,13 +1,12 @@
-package CollectionsDemo.ArrayListDemos;
+package CollectionsDemo.ListDemos.ArrayListDemos;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 
-public class ArrayListDemo1 {
+public class ArrayListDemo2 {
 
     public static void main(String[] args) {
 
-        ArrayList al = new ArrayList();
+        ArrayList<String> al = new ArrayList();
 
         al.add("amol");
         al.add("abhijit");
@@ -20,26 +19,23 @@ public class ArrayListDemo1 {
         al.add("Hemangi");
         al.add("Sayli");
         al.add("Taarun");
-        al.add(12);
+       /* al.add(12);
         al.add('h');
         al.add(true);
         al.add(1.1);
-
+*/
         System.out.println(al);
 
-        /*System.out.println("Size="+al.size());
+        //ArrayList<String> al2 = new ArrayList<String>();
+        ArrayList<Integer> al2 = new ArrayList<>();
+        al2.add(23);
+        al2.add(13);
+        al2.add(24);
+        al2.add(43);
+        al2.add(26);
+        al2.add(13);
 
-        for(int i=0;i<al.size();i++)
-        {
-            System.out.println(al.get(i));
-        }*/
-
-        Iterator itr = al.iterator();
-
-        while(itr.hasNext())
-        {
-            System.out.println(itr.next());
-        }
+        System.out.println(al2);
 
 
     }
